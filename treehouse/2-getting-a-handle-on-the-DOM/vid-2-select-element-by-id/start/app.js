@@ -1,5 +1,5 @@
-const myHeading = document.getElementById('myHeading');
+const myList = document.getElementsByTagName('li');
 
-myHeading.addEventListener('click', () => {
-  myHeading.style.color = 'red';
-});
+for (let i = 0; i < myList.length; i++) {
+  myList[i].style.color = 'purple';
+}
